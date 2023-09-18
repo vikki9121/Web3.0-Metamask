@@ -1,6 +1,43 @@
 .App {
   text-align: center;
 }
+/* App.css */
+/* Add your background image path */
+body {
+  background-image: url(https://hashdork.com/wp-content/uploads/2022/01/How-to-Install-and-use-MetaMask-on-Your-Browser-In-depth-Guide.png);
+  background-size: cover; /* Adjust this as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed;display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures the button is centered vertically on the page */
+  margin: 0;
+  /* Additional background properties if needed */
+}
+/* Center the button horizontally and vertically */
+
+
+/* Styling for the gradient button */
+button {
+  background-image: linear-gradient(to right, #ff6b6b, #ff8e8e); /* Gradient colors */
+  color: #ffffff; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 18px; /* Adjust font size as needed */
+}
+
+/* Hover effect for the button (optional) */
+button:hover {
+  background-image: linear-gradient(to right, #ff8e8e, #ff6b6b); /* Change gradient colors on hover */
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +51,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,9 +60,37 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* Styling for the floating buttons container */
+.floating-buttons {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  display: flex;
+  flex-direction: column; /* Display buttons vertically */
+  gap: 10px; /* Adjust the spacing between buttons as needed */
+}
+
+/* Styling for each individual floating button */
+.social-button {
+  background-color: #007BFF; /* Button background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for the buttons */
+.social-button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
 
 .App-link {
-  color: #61dafb;
+  color: #ffffff;
 }
 
 @keyframes App-logo-spin {
