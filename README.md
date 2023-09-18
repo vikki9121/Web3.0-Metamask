@@ -40,8 +40,7 @@ To connect your MetaMask wallet to the app:
 - Authorize the connection when prompted in MetaMask.
 
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 Happy coding! 🚀🔗💻
 
